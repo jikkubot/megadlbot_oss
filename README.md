@@ -116,7 +116,7 @@ db_name = megadlbot
 # for the following section fill in the FQDN with which end users can reach the host machine, bindaddress is the address of the adapter to bind with while running webserver and the port for the webserver to listen.
 [web_server]
 bind_address = 0.0.0.0
-fqdn = localhost
+fqdn = localhost / appname.herokuapp.com
 port = 8080
 ```
 
